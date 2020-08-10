@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'mintspirit_no2regular';
+    src: url('../fonts/mintspirit_no2regular.eot');
+    src: url('../fonts/mintspirit_no2regular.eot') format('embedded-opentype'),
+         url('../fonts/mintspirit_no2regular.woff2') format('woff2'),
+         url('../fonts/mintspirit_no2regular.woff') format('woff'),
+         url('../fonts/mintspirit_no2regular.ttf') format('truetype'),
+         url('../fonts/mintspirit_no2regular.svg#mintspirit_no2regular') format('svg');
+}

@@ -1,0 +1,44 @@
+@media (min-width: 1200px){
+ul.social-list{width:602px;}
+ul.social-list li{margin-right:50px;}
+ul.social-list li:last-child{padding-right:49px;}
+.phone{font-size:35px;width:538px;text-align:left;padding-left:49px;}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+.phone{font-size:33px;float:none;margin:0 auto;}
+
+ul.social-list{margin:0 auto;float:none;}
+ul.social-list li{margin-right:40px;}
+ul.social-list li:last-child{border-right:0px;padding-right:0px;}
+#content-box{bottom:20px;}
+a.logo{width:200px;height:150px;background:url(../images/logo-small.png) top center no-repeat;margin: 46px auto 0px;}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+		   
+a.logo{background-image:url(../images/logo-smallX2.png);background-size:200px 150px;}
+
+	   }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 319px){
+ul.social-list{margin:0px auto 10px auto;width:250px;float:none;}
+ul.social-list li{margin-right:50px;margin-bottom:20px;height:50px;padding:0px;}
+
+ul.social-list li:nth-child(3n){margin-right:0px;}
+ul.social-list li:last-child{border-right:0px;padding-right:0px;}
+.phone{font-size:33px;float:none;margin:0 auto;width:270px;text-align:center;line-height:80px;}
+
+#content-box{bottom:55px;}
+a.logo{width:150px;height:122px;background:url(../images/logo-xs.png) top center no-repeat;margin:35px auto 0px auto;}
+.phone{font-size:25px;line-height:35px;}
+.phone i{display:block;font-size:27px;}
+html, body{ background-position: 30% 50%;}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+		   
+a.logo{background-image:url(../images/logo-xsX2.png);background-size:150px 112px;}
+
+	   }
+}
+
